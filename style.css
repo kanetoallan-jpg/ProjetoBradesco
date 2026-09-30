@@ -1,0 +1,88 @@
+/* REGRA PARA O BODY */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #2a318f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* REGRA PARA O DIV PRINCIPAL */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 6px 6px 10px #000000;
+}
+
+/* REGRA PARA O TÍTULO QUE ESTA EM P */
+.p1 {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* Deixa a frase em negrito */
+    font-weight: bold;
+}
+
+/* REGRA DO FIELD PRINCIPAL */
+.field {
+    margin-bottom: 24px;
+}
+
+/* REGRA ETIQUETA*/
+.field label {
+    margin-bottom: 14px;
+    display: flex;
+    font-size: 13px;
+    color: #000000;
+}
+
+.field input {
+    padding: 10px;
+    width: 92%;
+    border: 1px solid #030303;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* ELEMENTOS DO BOTÃO */
+.btn {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background: #dadada;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.btn:hover {
+    background: #b9b9b9;
+}
+
+/* ELEMENTO RODAPÉ */
+.foot {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 14px;
+    color: #000000;
+}
+
+.foot A {
+    color: #474747;
+    text-decoration: none;
+}
+
+/* ELEMENTO PRINCIPAL */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
